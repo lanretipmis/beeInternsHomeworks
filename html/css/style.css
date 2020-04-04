@@ -1,0 +1,36 @@
+html {
+    font-size: 62.5%
+}
+
+* {
+    font-size: 1.7rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    margin: 2rem 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 91.6rem;
+}
+
+table {
+    width: 100%;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+td {
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+}
