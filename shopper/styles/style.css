@@ -1,0 +1,274 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* <---------------------REUSABLE ---------------------> */
+
+.btn {
+  padding: 1.2rem 3rem;
+  background: none;
+  color: #757575;
+  border: 1px solid #757575;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.btn__submit {
+  color: #f4f4f4;
+  background: #007aff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.icon {
+  background: none;
+  border: none;
+}
+
+.input {
+  border: 1px solid #c6c6c5;
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.5rem;
+  color: #878786;
+  outline: none;
+}
+
+.input__title {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.9rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.description {
+  color: #878786;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+}
+
+.description__link {
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__el {
+  display: inline-block;
+}
+
+.searchForm__input {
+  border: 1px solid #e0e0e0;
+  color: #757575;
+  width: 32.5rem;
+  outline: none;
+}
+
+.searchForm__btn {
+  width: 7.5rem;
+  margin-left: -4.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  outline: none;
+}
+/* <------------------------------------HEADER------------------------------------> */
+
+/* <---------------------------MAIN HEADER-------------------> */
+.mainHeader {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 3.3rem 8rem 2.7rem 8rem;
+}
+
+.mainHeader__searchForm {
+  width: 100%;
+  margin-left: 15rem;
+}
+
+.mainHeader__btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 24rem;
+}
+
+.mainHeader__btns button {
+  margin-right: 2.6rem;
+}
+
+.mainHeader__btns button:last-child {
+  margin-right: 0;
+}
+
+/* <----------------------------SUB HEADER ---------------------> */
+.subHeader {
+  box-sizing: border-box;
+  width: 100%;
+  background: #f4f4f4;
+  padding: 1.4rem 0 1.4rem 8rem;
+}
+
+.subHeader__nav {
+  width: 90rem;
+}
+
+.subHeader__nav .nav__link {
+  color: #737270;
+  font-size: 1.5rem;
+}
+
+/* <----------------------------APPLICATION -------------------------------------------------> */
+
+.application__title {
+  font-size: 2.6rem;
+  text-align: center;
+  margin: 4rem auto 3.5rem auto;
+}
+/* <----------------------------APPLICATION MENU ---------------------> */
+.application__menu {
+  width: 93rem;
+  margin: 0 auto 2rem auto;
+}
+
+.application__nav .nav__link {
+  color: #878786;
+}
+
+.application__nav .link__active {
+  color: #007aff;
+}
+
+/* <----------------------------APPLICATION BODY ---------------------> */
+.application__body {
+  margin: 0 auto;
+  margin-bottom: 9.7rem;
+  box-sizing: border-box;
+  border: 1px solid #c6c6c5;
+  border-radius: 0.5rem;
+  padding: 4rem 2rem;
+  padding-bottom: 3rem;
+  max-width: 970px;
+}
+
+/* <----------------------------APPLICATION NAME FORMS ---------------------> */
+.application_nameForms {
+  margin-bottom: 4rem;
+}
+
+.application_nameForms .input__groupe {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.application_nameForms .input:first-of-type {
+  margin-right: 1rem;
+}
+
+/* <----------------------------APPLICATION TITLE FORM ---------------------> */
+.application__titleForm input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  color: #9b9b9a;
+}
+
+/* <----------------------------APPLICATION CONTACTS FORMS ---------------------> */
+.application__contacts {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.application__subTitle {
+  color: #007aff;
+  font-weight: 500;
+  border-bottom: 1px solid #c6c6c5;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.application__contactForms {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  row-gap: 3rem;
+}
+
+.application__form .input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.application__form .description {
+  margin-top: 1rem;
+}
+
+/* <----------------------------APPLICATION FOOTER ---------------------> */
+.application__footer {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* <---------------------------------------------------FOOTER -------------------------------------------------> */
+
+.footer__secondary {
+  width: 97rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.footer__linksSection ul {
+  list-style-type: none;
+}
+
+.footer__linksSection .link {
+  color: #1c1c1b;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer__linksSection:last-child li {
+  display: flex;
+  align-items: center;
+}
+
+.footer__linksSection img {
+  margin-right: 7px;
+}
+
+.footer__copy{
+  margin: 0 8rem;
+  padding: 2rem 0;
+  text-align: center;
+  border-top:#C6C6C5 solid 1.3px;
+  line-height: 25px;
+}
