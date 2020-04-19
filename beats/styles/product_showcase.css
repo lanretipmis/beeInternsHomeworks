@@ -13,6 +13,9 @@
 }
 
 .product_img{
+    border:none;
+    background:none;
+    cursor: pointer;
     position: relative;
     text-align: center;
 }
@@ -62,9 +65,12 @@
     background: none;
     padding: 4.5px;
     margin-right: 14px;
+    cursor: pointer;
 }
 
 .color-btn .color_circle{
+    display: inline-block;
+    box-sizing: border-box;
     width: 46px;
     height: 46px;
     border:none;
@@ -100,6 +106,7 @@
 }
 
 .btn--black{
+    cursor: pointer;
     color: #fff;
     background: black;
 }
