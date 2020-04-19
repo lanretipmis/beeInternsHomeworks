@@ -1,0 +1,55 @@
+* {
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+    box-sizing: border-box;
+  flex-basis: 255px;
+  padding: 17px 19px 10px;
+}
+
+.sidebar__header {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+
+.sidebar__elements {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.sidebar__el{
+    margin-top: 10px;
+}
+
+.sidebar__el__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.sidebar__el__content {
+  width: 195px;
+  height: 164px;
+  background: #0054fe;
+  opacity: 0.04;
+  border-radius: 8px;
+}
+
+/* /<----------------------------MAIN CONTENT -----------------------------> */
+
+
+.mainContent{
+    flex-basis: 100%;
+    background: #F5F6FA;
+}
