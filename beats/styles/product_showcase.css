@@ -1,0 +1,120 @@
+.product__showcase{
+    padding: 50px 90px 0;
+}
+
+.product__showcase__wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.product__info{
+    color: #2B2835;
+}
+
+.product_img{
+    border:none;
+    background:none;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+.product_img::after{
+    content: url('../img/dots.png');
+    position: absolute;
+    top: 614px;
+    left: 348px;
+}
+
+.product__title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 55px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+
+    position: relative;
+}
+
+.product__title::after{
+    content: '+'; 
+    position: absolute;
+    top: -32px;
+    left: 235px;
+}
+
+.product__choose__title{
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.product__choose__subtitle{
+    margin-bottom: 15px;
+}
+
+.colorsGroupe{
+    display: flex;
+    align-items:center;
+    margin-bottom: 46px;
+}
+
+.color-btn{
+    border:none;
+    background: none;
+    padding: 4.5px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.color-btn .color_circle{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 46px;
+    height: 46px;
+    border:none;
+    border-radius: 100px;
+    box-shadow: 0 0 4px 3px #EAEAEA;
+}
+
+.color-btn-active{
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.color_circle-wht{
+    background:#fff;
+}
+
+.color_circle-red{
+    background:#DD5656;
+}
+
+.color_circle-blck{
+    background:black;
+}
+
+.product__offer{
+    display: flex;
+    align-items:center;
+}
+
+.product__price{
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+.btn--black{
+    cursor: pointer;
+    color: #fff;
+    background: black;
+}
+
+.product__offer__description{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(0,0,0,.51)
+}
