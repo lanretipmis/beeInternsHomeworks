@@ -1,0 +1,17 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /* TODO А на до ли тут убирать марджин и паддинг? */
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    /* TODO Как в лекции контейнер разместили по середине */
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 35px;
+}
