@@ -1,0 +1,140 @@
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+* {
+  font-family: "Titillium Web", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #ffff;
+  font-weight: 400;
+}
+
+.wrapper {
+}
+
+.show-case {
+  background: url(./imgs/bg_mobile.png) no-repeat ;
+}
+
+/*------------------------------------HEADER----------------------------*/
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  border-bottom: 1px solid #a3a3a3;
+
+  box-sizing: border-box;
+  max-height: 6rem;
+}
+
+header nav {
+  box-sizing: border-box;
+  padding: 2rem;
+  max-height: 6rem;
+  border-right: 1px solid #a3a3a3;
+  font-size: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav label {
+  position: relative;
+  margin-left: 2.5rem;
+}
+
+header nav input{
+    appearance: none;
+  -webkit-appearance: none;
+
+  width: 2.2rem;
+  height: 2.2rem;
+
+  background: url(./imgs/toggleMenu.png) no-repeat;
+}
+
+.toggle-ul{
+    display: none;
+}
+
+
+header nav label:after {
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 4px;
+  background: white;
+  top: 3.8rem;
+  left: -5px;
+}
+
+
+header .search {
+  padding: 2rem;
+  padding-left: 1rem;
+
+  box-sizing: border-box;
+  max-height: 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.search input {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  outline: none;
+  margin-left: 1rem;
+  box-sizing: border-box;
+  max-width: 13rem;
+}
+
+/*------------------------------------HEADER----------------------------*/
+
+
+
+
+/*------------------------------------PRODUCT-CARD----------------------------*/
+.product-card{
+  padding: 2rem;
+}
+
+.product-name{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+
+  margin-bottom:1.5rem;
+}
+
+.product-card ul li{
+  list-style-type: none;
+}
+
+.product-card ul li:nth-child(-n+2){
+  display: flex;
+  align-items: center;
+}
+
+.product-card ul li:nth-child(-n+2) button{
+  background:none;
+  border:none;
+  margin-right: 1rem;
+}
+
+.product-card ul li:nth-child(2){
+  margin-bottom: 1.5rem;
+}
+
+.featureName{
+font-size: 1.5rem;
+}
+
+.feature{
+font-size: 1.7rem;
+}

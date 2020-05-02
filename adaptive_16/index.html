@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="desktop.css" />
     <title>Honda Sport</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="show-case">
+        <header>
+          <nav>
+            <input type="checkbox" name="toggleMenu" id="toggleMenu" />
+            <label for="toggleMenu" class="toggleMenu">Models</label>
+            <div class="toggle-ul">
+              <ul>
+                <li><a href="#" class="menu-link">Dimensions</a></li>
+                <li><a href="#" class="menu-link">Facts & Figures</a></li>
+                <li><a href="#" class="menu-link">History</a></li>
+                <li><a href="#" class="menu-link">Reviews</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="search">
+            <label for="search"
+              ><img src="imgs/search_icon.svg" alt=""
+            /></label>
+            <input type="search" value="Search for details…" id="search" />
+          </div>
+        </header>
+
+        <div class="product-card">
+          <h2 class="product-name">Honda <br> Sport <br> CRF 450RX</h2>
+          <ul>
+            <li>
+              <button><img src="./imgs/videobtn.svg" alt="" /></button>
+              <p class="featureName">Watch film</p>
+            </li>
+            <li>
+              <button><img src="./imgs/bookmarkbtn.png" alt="" /></button>
+              <p class="featureName">Bookmark for later</p>
+            </li>
+            <li>
+              <p class="featureName">Manufacturer</p>
+              <p class='feature'>Honda</p>
+            </li>
+            <li>
+              <p class="featureName">Production</p>
+              <p class='feature'>2019</p>
+            </li>
+            <li>
+              <p class="featureName">Engine</p>
+              <p class='feature'>0.45 L PGM-FI</p>
+            </li>
+            <!-- TODO звездочки рейтинга ееее<li>
+              <p class="featureName">Reviews</p>
+              <p class='feature'>0.45 L PGM-FI</p>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
