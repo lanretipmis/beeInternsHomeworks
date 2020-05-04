@@ -6,7 +6,7 @@
   }
 
   .show-case {
-    background: url(./imgs/Background.png) center no-repeat;
+    background: url(./imgs/Background.png)no-repeat;
   }
 
   /*------------------------------------HEADER----------------------------*/
@@ -61,4 +61,8 @@
   }
   /*------------------------------------HEADER----------------------------*/
   
+
+  /*------------------------------------PRODUCT-CARD----------------------------*/
+
+
 }

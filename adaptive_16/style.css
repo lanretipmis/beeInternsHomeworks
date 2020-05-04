@@ -14,7 +14,7 @@ html {
 }
 
 .show-case {
-  background: url(./imgs/bg_mobile.png) no-repeat ;
+  background: url(./imgs/bg_mobile.png) no-repeat;
 }
 
 /*------------------------------------HEADER----------------------------*/
@@ -45,8 +45,8 @@ header nav label {
   margin-left: 2.5rem;
 }
 
-header nav input{
-    appearance: none;
+header nav input {
+  appearance: none;
   -webkit-appearance: none;
 
   width: 2.2rem;
@@ -55,10 +55,9 @@ header nav input{
   background: url(./imgs/toggleMenu.png) no-repeat;
 }
 
-.toggle-ul{
-    display: none;
+.toggle-ul {
+  display: none;
 }
-
 
 header nav label:after {
   content: "";
@@ -69,7 +68,6 @@ header nav label:after {
   top: 3.8rem;
   left: -5px;
 }
-
 
 header .search {
   padding: 2rem;
@@ -96,45 +94,63 @@ header .search {
 
 /*------------------------------------HEADER----------------------------*/
 
-
-
-
 /*------------------------------------PRODUCT-CARD----------------------------*/
-.product-card{
+.product-card {
   padding: 2rem;
+  padding-bottom: 3.5rem;
 }
 
-.product-name{
+.product-name {
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 3rem;
 
-  margin-bottom:1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.product-card ul li{
+.product-card ul li {
   list-style-type: none;
+  margin-bottom: 1rem;
 }
 
-.product-card ul li:nth-child(-n+2){
+.product-card ul li:nth-child(-n + 2) {
   display: flex;
   align-items: center;
 }
 
-.product-card ul li:nth-child(-n+2) button{
-  background:none;
-  border:none;
-  margin-right: 1rem;
+.product-card ul li:nth-child(-n + 2) button {
+  background: none;
+  border: none;
+  outline: none;
 }
 
-.product-card ul li:nth-child(2){
+.product-card ul li:nth-child(2) {
   margin-bottom: 1.5rem;
 }
 
-.featureName{
-font-size: 1.5rem;
+.product-card ul div button img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
 }
 
-.feature{
-font-size: 1.7rem;
+.star {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-right: 1rem;
+  width: 1.5rem;
 }
+
+.product-card ul li:last-child .feature {
+  display: inline;
+}
+
+.featureName {
+  font-size: 1.5rem;
+}
+
+.feature {
+  font-size: 1.7rem;
+}
+
+
