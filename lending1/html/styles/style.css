@@ -12,10 +12,6 @@
   font-size: 30px;
 }
 
-/* .wrapper{
-  max-width: 1180px;
-} */
-
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -91,7 +87,7 @@
 }
 
 .showcase--why {
-  background: url(/images/why.jpg) no-repeat center;
+  background: url("../images/why.jpg") no-repeat center;
   color: #f4f4f4;
 }
 
@@ -116,12 +112,12 @@
 }
 
 .showcase__header::before {
-  content: url(/images/line-left.png);
+  content: url("../images/line-left.png");
   margin-right: 30px;
 }
 
 .showcase__header::after {
-  content: url(/images/line-right.png);
+  content: url("../images/line-right.png");
   margin-left: 30px;
 }
 
@@ -170,22 +166,22 @@
 }
 
 .why-1 {
-  background: url("/images/why-1.png") no-repeat center;
+  background: url("../images/why-1.png") no-repeat center;
 }
 .why-2 {
-  background: url("/images/why-2.png") no-repeat center;
+  background: url("../images/why-2.png") no-repeat center;
 }
 .why-3 {
-  background: url("/images/why-3.png") no-repeat center;
+  background: url("../images/why-3.png") no-repeat center;
 }
 .why-4 {
-  background: url("/images/why-4.png") no-repeat center;
+  background: url("../images/why-4.png") no-repeat center;
 }
 
 /* <------------------------------------ SHOWCASE FEATURES --------------------------------> */
 
 .showcase--features {
-  background: url(/images/us.jpg) no-repeat;
+  background: url("../images/us.jpg") no-repeat;
   color: #f4f4f4;
 }
 
