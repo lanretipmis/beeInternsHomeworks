@@ -10,9 +10,6 @@ html {
   font-weight: 400;
 }
 
-.wrapper {
-}
-
 .show-case {
   background: url(./imgs/bg_mobile.png) no-repeat;
 }
@@ -147,10 +144,17 @@ header .search {
 
 .featureName {
   font-size: 1.5rem;
+  display: block;
+}
+
+.product-card ul li:last-child{
+  display: block;
 }
 
 .feature {
   font-size: 1.7rem;
 }
+
+
 
 

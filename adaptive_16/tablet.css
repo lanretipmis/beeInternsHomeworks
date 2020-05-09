@@ -35,8 +35,8 @@
 
   /*------------------------------------PRODUCT-CARD----------------------------*/
   .product-card {
-    padding: 5rem 16rem 8rem 9rem;
     padding-bottom: 3.5rem;
+    padding-left: 9rem;
   }
 
   .product-name {
@@ -52,8 +52,8 @@
 
   .product-card ul div {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    /* align-items: center;
+    justify-content: flex-start; */
   }
 
   .product-card ul div:first-child li:first-child {
@@ -78,7 +78,7 @@
   }
 
   .product-card ul div:first-child {
-    margin-bottom: 7.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .product-card ul div:nth-child(2) li {
@@ -89,6 +89,12 @@
     margin-right: 7.2rem;
   }
 
+  .star_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .featureName {
     font-size: 1.8rem;
     margin-bottom: 1rem;
@@ -97,4 +103,12 @@
   .feature {
     font-size: 2.4rem;
   }
+
+  .flex-cont{
+    flex-wrap: wrap;
+  }
+  .flex-cont li {
+    flex-basis: 100%;
+  }
+
 }

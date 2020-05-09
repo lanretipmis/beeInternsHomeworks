@@ -63,6 +63,13 @@
   
 
   /*------------------------------------PRODUCT-CARD----------------------------*/
+  .flex-cont li {
+    flex-basis: initial;
+  }
+
+  .product-card {
+    padding: 8rem 0 13rem 21rem;
+  }
 
 
 }
