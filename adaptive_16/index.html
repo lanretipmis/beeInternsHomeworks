@@ -87,13 +87,30 @@
         <div class="sign-up-cont">
           <p class="sign-up-info">
             Sign up for our email newsletter and get the latest our company
-            news. Get free trial for 3 month.
+            news. <span> Get free trial for 3 month.</span>
           </p>
-          <fieldset>
-            <input type="text" name="name" id="name" value='name' placeholder="name">
-          </fieldset>
+          <form method="POST" action='/posturl/newsletter/' name='sign up'>
+            <div>
+            <div><input type="text" name="name" id="name" value='name' patter='[A-Za-z]' placeholder="name" class="input" minlength="2" maxlength='30' required></div>
+            <div><input type="email" name="email"  class="input" required placeholder="email"></div></div>
+            <input type="submit" value="GET STARTED FOR FREE" class="input input-submit">
+          </form>
         </div>
+
+        <footer class="footer">
+          <div class="links">
+            <a href="#" class="link">Cars</a>
+            <a href="#" class="link">Motorcycles</a>
+            <a href="#" class="link">Engines</a>
+            <a href="#" class="link">Water moto technology</a>
+          </div>
+          <div class="copyrights"></div>
+        </footer>
       </section>
     </div>
+
+    <script>
+      document.querySelector('.copyrights').innerText = '© 2020, <BeeInterns />'
+    </script>
   </body>
 </html>

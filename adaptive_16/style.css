@@ -94,7 +94,7 @@ header .search {
 /*------------------------------------PRODUCT-CARD----------------------------*/
 .product-card {
   padding: 2rem;
-  padding-bottom: 3.5rem;
+  padding-bottom: 0rem;
 }
 
 .product-name {
@@ -147,7 +147,7 @@ header .search {
   display: block;
 }
 
-.product-card ul li:last-child{
+.product-card ul li:last-child {
   display: block;
 }
 
@@ -155,6 +155,89 @@ header .search {
   font-size: 1.7rem;
 }
 
+/* ------------------------------SIGN UP------------------ */
+.sign-up-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+  background-color: #1f1f2f;
+  padding: 3rem 2rem;
+  padding-bottom: 2rem;
+}
 
+.sign-up-info {
+  color: #ffffff;
+  font-size: 1.7rem;
+  letter-spacing: 0.15px;
+  margin-bottom: 2rem;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+  color: #82868e;
+  font-size: 1.7rem;
+
+  width: 28rem;
+  height: 3.5rem;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+form div {
+  position: relative;
+}
+
+form div:first-child::before {
+  content: "";
+  background: url("./imgs/cc.svg") no-repeat center;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+form div:nth-child(2)::before {
+  content: "";
+  background: url("./imgs/mail2.svg") no-repeat center;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.input-submit {
+  background: #f92251;
+  color: #ffffff;
+  padding-bottom: 3rem;
+}
+
+/*------------------- FOOTER*/
+.footer {
+  background: #404754;
+  padding: 2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.link, .copyrights {
+  color: #bac5d3;
+  font-size: 1.7rem;
+  margin-top: 0.8px;
+}

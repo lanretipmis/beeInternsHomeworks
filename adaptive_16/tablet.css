@@ -52,8 +52,6 @@
 
   .product-card ul div {
     display: flex;
-    /* align-items: center;
-    justify-content: flex-start; */
   }
 
   .product-card ul div:first-child li:first-child {
@@ -111,4 +109,49 @@
     flex-basis: 100%;
   }
 
+  /* ------------------------------SIGN UP------------------ */
+  .sign-up-info {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 53rem;
+    letter-spacing: 0.3px;
+  }
+
+  form > div {
+    display: flex;
+  }
+
+  .sign-up-info span{
+    display: block;
+  }
+
+  .input{
+    width: 21rem;
+  }
+
+  .input:first-of-type{
+    margin-right: 3rem;
+  }
+
+  .input-submit{
+    width: 45rem;
+  }
+
+
+/*------------------- FOOTER*/
+  .links {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+
+  .link{
+    margin-right: 3rem;
+    margin-top: 0;
+    font-size: 2rem;
+  }
+
+  .copyrights{
+    font-size: 2rem;
+  }
 }

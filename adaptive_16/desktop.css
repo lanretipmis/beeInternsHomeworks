@@ -2,11 +2,11 @@
   body {
     max-width: 1440px;
     margin: 0 auto;
-    background: #533E2F;
+    background: #533e2f;
   }
 
   .show-case {
-    background: url(./imgs/Background.png)no-repeat;
+    background: url(./imgs/Background.png) no-repeat;
   }
 
   /*------------------------------------HEADER----------------------------*/
@@ -60,7 +60,6 @@
     left: -0.1rem;
   }
   /*------------------------------------HEADER----------------------------*/
-  
 
   /*------------------------------------PRODUCT-CARD----------------------------*/
   .flex-cont li {
@@ -71,5 +70,49 @@
     padding: 8rem 0 13rem 21rem;
   }
 
+  /* ------------------------------SIGN UP------------------ */
+  .sign-up-info {
+    width: 78rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.3px;
+  }
 
+  form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .input:first-of-type {
+    margin-right: 3rem;
+  }
+
+  .input {
+    width: 30rem;
+  }
+
+  .input-submit {
+    width: 30rem;
+  }
+
+  /*------------------- FOOTER*/
+  .footer {
+    background: #404754;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: cetner;
+  }
+
+  .link {
+    margin-right: 4rem;
+  }
+
+  .links{
+    margin-bottom: 0;
+  }
+
+  .copyrights{
+    justify-self: end;
+    margin-left: auto;
+  }
 }
