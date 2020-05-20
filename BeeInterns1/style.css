@@ -50,8 +50,8 @@
   width: 134px;
 }
 
-.nav_item:last-child {
-  margin-right: 4rem;
+.header_nav .nav_item:last-child {
+  margin-right: 0rem;
 }
 
 /*----------------------------------------------------*/
@@ -187,6 +187,8 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
   margin-bottom: 6rem;
+
+  grid-gap: 15px;
 }
 
 .card_content{
@@ -195,7 +197,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  padding: 0 6rem 0 0;
+  padding: 0 4.5rem 0 0;
 }
 
 .content-right{
@@ -204,7 +206,7 @@
 .content-left{
   text-align: left;
   align-items: flex-start;
-  padding: 0 0 0 6rem;
+  padding: 0 0 0 4.5rem;
 }
 
 .img-big{
