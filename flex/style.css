@@ -1,0 +1,256 @@
+* {
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+/* /<----------------------------SIDEBAR -----------------------------> */
+
+.sidebar {
+  box-sizing: border-box;
+  flex-basis: 255px;
+  padding: 17px 19px 10px;
+}
+
+.sidebar__header {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+
+.sidebar__elements {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.sidebar__el {
+  margin-top: 10px;
+}
+
+.sidebar__el__title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.sidebar__el__content {
+  width: 195px;
+  height: 164px;
+  background: #0054fe;
+  opacity: 0.04;
+  border-radius: 8px;
+}
+
+/* /<--------------------------------------------------------MAIN CONTENT -----------------------------> */
+
+.mainContent {
+  flex-basis: 100%;
+  background: #f5f6fa;
+  padding: 17px 30px 30px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+/* /<--------------------------------------------------------OBJECTIVES -----------------------------> */
+
+.objectives {
+  margin-bottom: 20px;
+  max-width: 1124px;
+}
+
+.objectives__elems {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.objectives__el {
+  flex-basis: 600px;
+  box-sizing: border-box;
+
+  padding: 12px 14px;
+  margin-right: 30px;
+  height: 185px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(74, 74, 74, 0.5);
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+  border-radius: 5px;
+}
+
+.objectives__el:last-child {
+  margin-right: 0;
+}
+
+/* /<--------------------------------------------------------PREPARATION SEC -----------------------------> */
+.preparation__body {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+  border-radius: 5px;
+  padding: 26px 17px;
+  box-sizing: border-box;
+  width: 1124px;
+
+  display: flex;
+  justify-content: stretch;
+
+}
+
+.plan__section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  /* margin-right: 16px; */
+}
+
+.card {
+  background: rgba(0, 84, 254, 0.04);
+  border-radius: 8px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.card_title {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.card_subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(74, 74, 74, 0.5);
+}
+
+.card_question {
+  max-height: 240px;
+  max-width: 230px;
+  margin-right: 16px;
+}
+
+.steps_wrapper {
+  display: flex;
+  align-items: stretch;
+
+  margin-top: 16px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.steps_wrapper:after {
+  content: url("./Line\ 3.png");
+  position: absolute;
+  top: 160px;
+}
+
+.step {
+  background: rgba(0, 84, 254, 0.04);
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: cetner;
+  height: 158px;
+  width: 98px;
+  margin-right: 10px;
+}
+
+.card__checkboxes {
+  margin-top: 16px;
+  padding: 20px;
+}
+
+.card__checkboxes .card_title {
+  display: block;
+}
+
+.card_cols {
+  display: flex;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border: #4a4a4a 1.1px solid;
+  border-radius: 2px;
+  outline: none;
+  margin-right: 2px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"]:checked:before {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 12px;
+  border: 0 solid #4a4a4a;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotateZ(45deg);
+  margin: -6px 3px;
+  pointer-events: none;
+}
+
+.col1,
+.col2 {
+  margin-right: 20px;
+}
+
+.col1 p {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.col2 p:first-child {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.col2 {
+  font-size: 12px;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+form {
+  margin-top: 4px;
+}
+
+.col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.test_tasks{
+  background: rgba(0, 84, 254, 0.04);
+  border-radius: 8px;
+  padding: 8px;
+  width: 200px;
+}
+
+.test_tasks .card_subtitle{
+  margin-top: 7px;
+}
