@@ -1,0 +1,118 @@
+@media (min-device-width: 1440px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #533e2f;
+  }
+
+  .show-case {
+    background: url(./imgs/Background.png) no-repeat;
+  }
+
+  /*------------------------------------HEADER----------------------------*/
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 4rem;
+
+    position: relative;
+  }
+
+  header nav input {
+    background: url(./imgs/domo-kun-logo.png) 100%;
+    width: 6.5rem;
+    height: 8rem;
+    position: absolute;
+    left: 4rem;
+  }
+
+  .search {
+    margin-top: 1rem;
+  }
+
+  .toggle-ul {
+    display: block;
+  }
+
+  header {
+    max-height: 8rem;
+    grid-template-columns: 3fr 1.5fr;
+  }
+
+  .toggle-ul li a {
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+
+  .toggle-ul ul li {
+    display: inline-block;
+    margin: 2.5rem;
+  }
+
+  .toggle-ul ul li:first-child {
+    margin-left: 5rem;
+  }
+
+  header nav label:after {
+    top: 4.9rem;
+    left: -0.1rem;
+  }
+  /*------------------------------------HEADER----------------------------*/
+
+  /*------------------------------------PRODUCT-CARD----------------------------*/
+  .flex-cont li {
+    flex-basis: initial;
+  }
+
+  .product-card {
+    padding: 8rem 0 13rem 21rem;
+  }
+
+  /* ------------------------------SIGN UP------------------ */
+  .sign-up-info {
+    width: 78rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.3px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .input:first-of-type {
+    margin-right: 3rem;
+  }
+
+  .input {
+    width: 30rem;
+  }
+
+  .input-submit {
+    width: 30rem;
+  }
+
+  /*------------------- FOOTER*/
+  .footer {
+    background: #404754;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: cetner;
+  }
+
+  .link {
+    margin-right: 4rem;
+  }
+
+  .links{
+    margin-bottom: 0;
+  }
+
+  .copyrights{
+    justify-self: end;
+    margin-left: auto;
+  }
+}
